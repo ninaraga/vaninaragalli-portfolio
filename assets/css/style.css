@@ -1,15 +1,5 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
 
 /* Universal */
  * {
@@ -20,14 +10,7 @@
    text-decoration: none;
    scroll-behavior: smooth;
    scroll-padding-top: 2rem;
-   /*font-family: 'Advent Pro', sans-serif; */
-   /*font-family: 'Pathway Gothic One', sans-serif;*/
    font-family: 'Oxygen', sans-serif;  
-   /*font-family: 'Cabin Condensed', sans-serif;*/
-   /*font-family: 'Alegreya Sans', sans-serif; si arreglar tamaño */
-   /*font-family: 'Hind', sans-serif; si */
-   /* font-family: 'Alegreya Sans', sans-serif; si ver tamaños */
-   /* font-family: 'Ubuntu', sans-serif; si*/
  }
 
  /* Constants */
@@ -216,54 +199,6 @@
    transform: scale(1.2);
    transition: 0.5s;
  }
-
- /* animate home */
-
- /* .vapour{
-  position: absolute;
-  width: 100%;
- }
-
- .vapour span {
-  position: relative;
-  bottom: 50px;
-  display: inline-flex;
-  margin: 0;
-  min-width: 16px;
-  max-width: 50px;
-  height: 120px;
-  background-color: #D6ACF2;
-  border-radius: 50%;
-  animation: animate1 10s linear infinite;
-  opacity: 0;
-  filter: blur(8px);
-  animation-delay: calc(var(--i) * -0.5s);
- }
-
- @keyframes animate1 {
-  0%{
-    transform: translateY(0) scaleX(1);
-    opacity: 0;
-  }
-  15%{
-    opacity: 1;
-  }
-  50%{
-    transform: translateY(-150px) scaleX(5);
-  }
-  95%{
-    opacity: 0;
-  }
-  100%{
-    transform: translateY(-300px) scaleX(10);
-  }
- }
-
- *::selection {
-   color: var(--bg-color);
-   background: var(--main-color);
- } */
-
 
 /* About Section */
  .about-container {
@@ -977,11 +912,6 @@
    margin-bottom: 1rem;
    color: var(--text-color);
 }
-
- /*form input::placeholder,
- textarea::placeholder {
-   color: var(--text-color);
- }*/
 
  form textarea {
    resize: none;
