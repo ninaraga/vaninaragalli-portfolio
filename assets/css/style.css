@@ -54,6 +54,7 @@
    --bg-color: #333035;
    --btn-t-color: #404040;
    --skill-color: #fff;
+   --accent-color: #f37597;
  }
 
  /* body */
@@ -107,7 +108,7 @@
  .logo span {
    font-size: 1.61rem;
    font-weight: 600;
-   color: #D94E73;
+   color: var(--accent-color);
  }
 
  .navbar {
