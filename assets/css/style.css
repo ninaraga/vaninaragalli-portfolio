@@ -51,8 +51,8 @@
  /* Darkmode */
  body.active {
    --text-color: #fff;
-   --bg-color: #333035;
-   --btn-t-color: #404040;
+   --bg-color: #0e0111;
+   --btn-t-color: #2b2a2a;
    --skill-color: #fff;
    --accent-color: #f37597;
  }
